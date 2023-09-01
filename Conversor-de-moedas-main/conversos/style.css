@@ -1,0 +1,102 @@
+body{
+    background-color: #E1D8BB;
+margin: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #2B2D42;
+    border-radius: 5%;
+    text-align:  center;
+    color: #dfd5d2;
+    gap: 30px;
+    fo
+    
+   
+}
+.container{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    height: 100vh;
+    margin-top: 150px;
+
+}
+.painel{
+    padding: 0%; 
+    border: 3px ; 
+    border-radius:5%; 
+    background-color: #2B2D42; 
+   height: 50vh;
+   width: 50vh;
+  
+   
+}
+#tax_info1{
+    color: #dfd5d2;
+    font-size: larger;
+    border-top: 50px;
+}
+
+
+#swap {
+    cursor: pointer;
+    display: block;
+    padding: 0%; 
+    width: 60px; 
+    height: 60px;
+    border-radius:10%; 
+    background-color: #2B2D42;
+    background-image: url('image/Sem\ nome\ \(150\ x\ 150\ px\)\ \(3\).png');
+    background-position: center;
+    background-size: cover;
+    margin-left: 15vh;
+}
+
+#from_currency{
+    cursor: pointer;
+    background-color: #dfd5d2;
+    font-size: larger;
+}
+#from_ammount{
+    background-color: #dfd5d2;
+    font-size: larger;
+    width: 150px;
+   
+}
+
+#to_currency{
+    cursor: pointer;
+    background-color: #dfd5d2;
+    font-size: larger;
+}
+
+#to_ammount{
+    background-color: #dfd5d2;
+    font-size: larger;
+    margin-bottom: 10px;
+    width: 150px;
+  
+}
+
+
+#tax_info{
+    height:400px;
+  width: 400px ;
+  background-image: url(image/Sem\ nome\ \(150\ x\ 150\ px\)\ \(5\).png);
+    background-position:center ;
+    background-size:cover ;
+    color: brown;
+    border-radius: 0;
+    background-color: #2B2D42;
+    color: rgba(0,0,0,.75);
+    display: block;
+    font-size: larger;
+    height: 2.3125rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+
